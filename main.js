@@ -102,6 +102,7 @@ function customHeaders() {
 }
 
 // TRANSFORMING REQUESTS & RESPONSES
+//transform request can be used for encrypting data before passing it on 
 function transformResponse() {
   const options = {
     method: 'post',
